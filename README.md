@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tương Lai Của Robot và Trí Tuệ Nhân Tạo</title>
+    <!-- Tải Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Cài đặt Font Inter -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #1f2937;
+        }
+        /* Custom CSS cho Infographic (Yêu cầu 4) */
+        .infographic-bar {
+            height: 1.5rem;
+            border-radius: 0.5rem;
+            transition: width 1s ease-in-out;
+        }
+        /* Hiệu ứng Scale và Chuyển màu cho Button (Yêu cầu 6) */
+        .interactive-button {
+            transition: all 0.3s ease;
+        }
+        .interactive-button:hover {
+            transform: scale(1.05);
+            background-color: #1e40af; /* Màu xanh đậm hơn khi hover */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Thanh Điều Hướng (Navbar) -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-700">STEM-AI</h1>
+            <nav>
+                <a href="#gioithieu" class="text-gray-600 hover:text-blue-700 mx-3 interactive-button p-2 rounded-lg">Giới Thiệu</a>
+                <a href="#quantrong" class="text-gray-600 hover:text-blue-700 mx-3 interactive-button p-2 rounded-lg">Tầm Quan Trọng</a>
+                <a href="#dulieu" class="text-gray-600 hover:text-blue-700 mx-3 interactive-button p-2 rounded-lg">Dữ Liệu</a>
+                <a href="#lienhe" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 interactive-button">Đăng Ký Khóa Học</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Phần 1: Giới Thiệu Chủ Đề (Yêu cầu 1) -->
+    <section id="gioithieu" class="py-20 bg-blue-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-5xl font-extrabold text-gray-900 mb-4">Tương Lai Của Robot và Trí Tuệ Nhân Tạo (AI)</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Robot và Trí tuệ Nhân tạo (AI) đang định hình lại thế giới của chúng ta. Từ các thuật toán phức tạp đến máy móc tự động hóa, lĩnh vực này hứa hẹn một tương lai với hiệu suất cao hơn và những giải pháp sáng tạo cho các vấn đề toàn cầu.
+            </p>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mt-2">
+                Nghiên cứu về AI và Robot không chỉ là xu hướng mà còn là nền tảng cho sự phát triển bền vững của khoa học kỹ thuật trong thế kỷ 21.
+            </p>
+            <div class="mt-10">
+                <button class="interactive-button bg-blue-600 text-white font-semibold py-3 px-8 rounded-xl shadow-lg hover:shadow-xl">
+                    Khám Phá Sâu Hơn
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần 2: Tầm Quan Trọng (Yêu cầu 2) -->
+    <section id="quantrong" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Vì Sao Chủ Đề Này Quan Trọng?</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Điểm quan trọng 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-blue-200 transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <!-- Icon: Công nghiệp (Sử dụng SVG inline) -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37h.001z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">1. Tối Ưu Hóa Sản Xuất</h3>
+                    <p class="text-gray-600">Robot tăng tốc độ, độ chính xác và giảm thiểu sai sót trong các quy trình sản xuất công nghiệp, từ đó giảm chi phí và nâng cao chất lượng sản phẩm.</p>
+                </div>
+                <!-- Điểm quan trọng 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-blue-200 transition duration-300">
+                    <div class="text-green-500 mb-4">
+                        <!-- Icon: Y tế (Sử dụng SVG inline) -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.696 5.176-1.406 9-6.105 9-11.696 0-1.017-.163-2.003-.438-2.944z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">2. Y Học Chính Xác</h3>
+                    <p class="text-gray-600">AI hỗ trợ các bác sĩ trong việc chẩn đoán bệnh tật ở giai đoạn sớm, phân tích dữ liệu gene và phát triển các loại thuốc điều trị cá nhân hóa hiệu quả hơn.</p>
+                </div>
+                <!-- Điểm quan trọng 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-blue-200 transition duration-300">
+                    <div class="text-yellow-500 mb-4">
+                        <!-- Icon: Môi trường/Năng lượng (Sử dụng SVG inline) -->
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">3. Giải Quyết Vấn Đề Toàn Cầu</h3>
+                    <p class="text-gray-600">AI giúp mô hình hóa biến đổi khí hậu, dự báo thiên tai và tối ưu hóa hệ thống năng lượng tái tạo, góp phần vào mục tiêu phát triển bền vững toàn cầu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần 3: Minh Họa Ảnh/Icon (Yêu cầu 3) -->
+    <section class="py-16 bg-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Minh Họa Công Nghệ</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+                <!-- Icon 1: Robot Công nghiệp -->
+                <div class="p-6 bg-white rounded-xl shadow-md interactive-button hover:bg-gray-100">
+                    <img src="https://placehold.co/100x100/3b82f6/ffffff?text=Robot+SX" alt="Robot Sản Xuất" class="mx-auto mb-4 rounded-lg">
+                    <p class="text-lg font-medium text-gray-700">Cánh tay Robot (Industrial)</p>
+                </div>
+                <!-- Icon 2: Chip AI -->
+                <div class="p-6 bg-white rounded-xl shadow-md interactive-button hover:bg-gray-100">
+                    <img src="https://placehold.co/100x100/10b981/ffffff?text=AI+Chip" alt="Chip AI" class="mx-auto mb-4 rounded-lg">
+                    <p class="text-lg font-medium text-gray-700">Chip Xử Lý AI</p>
+                </div>
+                <!-- Icon 3: Trực quan hóa dữ liệu -->
+                <div class="p-6 bg-white rounded-xl shadow-md interactive-button hover:bg-gray-100">
+                    <img src="https://placehold.co/100x100/f59e0b/ffffff?text=Data+Viz" alt="Trực quan hóa Dữ liệu" class="mx-auto mb-4 rounded-lg">
+                    <p class="text-lg font-medium text-gray-700">Hệ thống Học Máy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần 4: Infographic Đơn Giản (Yêu cầu 4) -->
+    <section id="dulieu" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Infographic: Tốc Độ Tăng Trưởng Lĩnh Vực AI</h2>
+
+            <div class="space-y-6">
+                <!-- Thanh 1: Đầu tư AI (85%) -->
+                <div class="flex items-center space-x-4">
+                    <span class="w-32 font-medium text-gray-700">Đầu tư AI:</span>
+                    <div class="flex-grow bg-gray-200 rounded-lg">
+                        <div class="infographic-bar bg-red-600" style="width: 85%;"></div>
+                    </div>
+                    <span class="font-bold text-red-600">85%</span>
+                </div>
+
+                <!-- Thanh 2: Robot hóa (70%) -->
+                <div class="flex items-center space-x-4">
+                    <span class="w-32 font-medium text-gray-700">Robot hóa:</span>
+                    <div class="flex-grow bg-gray-200 rounded-lg">
+                        <div class="infographic-bar bg-green-600" style="width: 70%;"></div>
+                    </div>
+                    <span class="font-bold text-green-600">70%</span>
+                </div>
+
+                <!-- Thanh 3: Tăng trưởng Dữ liệu (95%) -->
+                <div class="flex items-center space-x-4">
+                    <span class="w-32 font-medium text-gray-700">Tăng trưởng Dữ liệu:</span>
+                    <div class="flex-grow bg-gray-200 rounded-lg">
+                        <div class="infographic-bar bg-blue-600" style="width: 95%;"></div>
+                    </div>
+                    <span class="font-bold text-blue-600">95%</span>
+                </div>
+            </div>
+
+            <p class="text-sm text-gray-500 text-center mt-8 italic">Dữ liệu ước tính về tốc độ tăng trưởng hàng năm trong 5 năm tới.</p>
+        </div>
+    </section>
+
+    <!-- Phần Chân Trang (Footer) -->
+    <footer id="lienhe" class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-lg mb-2">Dự án STEM: Robot và AI</p>
+            <p class="text-sm text-gray-400">Thiết kế bởi [Hồ Cẩm Triệu] | Môn học: [Tin Học]</p>
+            <a href="#" class="inline-block mt-4 text-blue-400 hover:text-blue-200">Quay lại đầu trang</a>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript cho Hiệu ứng Chuyển màu (Yêu cầu 6) -->
+    <script>
+        // JS để tạo hiệu ứng đơn giản (chuyển màu nền khi cuộn trang)
+        const header = document.querySelector('header');
+        const scrollChange = 50; // Thay đổi sau 50px cuộn
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > scrollChange) {
+                header.classList.add('bg-blue-100', 'shadow-xl');
+                header.classList.remove('bg-white', 'shadow-md');
+            } else {
+                header.classList.add('bg-white', 'shadow-md');
+                header.classList.remove('bg-blue-100', 'shadow-xl');
+            }
+        });
+    </script>
+</body>
+</html>
